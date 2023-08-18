@@ -1,0 +1,15 @@
+GET http://localhost:5000
+
+###
+POST http://localhost:5000/api/data
+Content-Type: application/json
+
+{
+  "test": true
+}
+
+###
+GET http://localhost:5000/api/books/hello
+
+###
+GET http://localhost:5000/12121
